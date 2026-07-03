@@ -31,6 +31,7 @@ A hardware implementation of a **Universal Asynchronous Receiver Transmitter (UA
 
 ## Repository Structure
 
+```text
 UART/
 │
 ├── README.md
@@ -67,7 +68,6 @@ UART/
     ├── rx_fsm.png
     └── timing.png
 ```
-
 ---
 
 ## UART Frame Format

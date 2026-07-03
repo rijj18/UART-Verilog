@@ -31,30 +31,20 @@ A hardware implementation of a **Universal Asynchronous Receiver Transmitter (UA
 
 ## Repository Structure
 
-```
-UART-Verilog/
+
+UART_TX/
 │
 ├── src/
-│   ├── uart_tx.v
-│   ├── uart_rx.v
-│   ├── baud_generator.v
-│   ├── top.v
+│   └── uart_tx.v
 │
-├── testbench/
-│   └── uart_tb.v
+├── tb/
+│   └── uart_tx_tb.v
 │
-├── constraints/
-│   └── uart.xdc
-│
-├── simulation/
-│   ├── uart_waveform.png
-│   └── simulation_results.png
-│
-├── docs/
-│   ├── uart_block_diagram.png
-│   └── uart_fsm.png
+├── waveforms/
+│   └── uart_tx_waveform.png
 │
 ├── README.md
+│
 └── LICENSE
 ```
 

@@ -31,21 +31,41 @@ A hardware implementation of a **Universal Asynchronous Receiver Transmitter (UA
 
 ## Repository Structure
 
-
-UART_TX/
-│
-├── src/
-│   └── uart_tx.v
-│
-├── tb/
-│   └── uart_tx_tb.v
-│
-├── waveforms/
-│   └── uart_tx_waveform.png
+UART/
 │
 ├── README.md
+├── LICENSE
+├── .gitignore
 │
-└── LICENSE
+├── rtl/
+│   ├── uart_tx.v
+│   ├── uart_rx.v
+│   ├── baud_generator.v
+│   └── uart_top.v
+│
+├── tb/
+│   ├── uart_tx_tb.v
+│   ├── uart_rx_tb.v
+│   └── uart_top_tb.v
+│
+├── sim/
+│   ├── uart_tx_waveform.png
+│   ├── uart_rx_waveform.png
+│   └── uart_top_waveform.png
+│
+├── constraints/
+│   └── uart.xdc
+│
+├── docs/
+│   ├── UART_Theory.md
+│   ├── FSM_Diagram.png
+│   ├── Timing_Diagram.png
+│   └── Block_Diagram.png
+│
+└── images/
+    ├── tx_fsm.png
+    ├── rx_fsm.png
+    └── timing.png
 ```
 
 ---
